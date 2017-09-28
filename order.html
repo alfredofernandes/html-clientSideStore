@@ -1,52 +1,56 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Beers: Your Order</title>
-	<meta charset="utf-8" />
-	<link rel="stylesheet" href="css/style.css" media="screen" type="text/css" />
-	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-	<script type="text/javascript" src="js/jquery.shop.js"></script>
-</head>
+	<head>
+		<title>Markito: Your Order</title>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" href="css/main.css" media="screen" type="text/css" />
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="js/ecommerce.js"></script>
+	</head>
 
-<body id="checkout-page">
+	<body id="checkout-page">
+		
+		<div id="site">
+			<header id="masthead">
+				<h1><span class="tagline">Where you can shop the funny shirts across the globe!</h1>
+			</header>
 
-<div id="site">
-	<header id="masthead">
-		<h1>Beers <span class="tagline">Where you can shop the greatest beers across the globe!</h1>
-	</header>
-	<div id="content">
-		<h1>Your Order</h1>
-			<table id="checkout-cart" class="shopping-cart">
-			  <thead>
-				<tr>
-					<th scope="col">Item</th>
-					<th scope="col">Qty</th>
-					<th scope="col">Price</th>
-				</tr>
-			  </thead>
-			  <tbody>
-			  
-			  </tbody>
-			</table>
-		 <div id="pricing">
-			
-			<p id="shipping">
-				<strong>Shipping</strong>: <span id="sshipping"></span>
-			</p>
-			
-			<p id="sub-total">
-				<strong>Total</strong>: <span id="stotal"></span>
-			</p>
-		 </div>
-		 
-		 <div id="user-details">
-		 	<h2>Your Data</h2>
-		 	<div id="user-details-content"></div>
-		 </div>
-	</div>
-</div>
+			<div id="content">
+				<h1>Your Order</h1>
+				<table id="checkout-cart" class="shopping-cart">
+				  <thead>
+					<tr>
+						<th scope="col">Item</th>
+						<th scope="col">Qty</th>
+						<th scope="col">Price</th>
+					</tr>
+				  </thead>
+				  <tbody>
+				  
+				  </tbody>
+				</table>
 
-<footer id="site-info">Copyright&copy; Guilherme, Alfredo, Juliana</footer>
+			 	<div id="pricing">
+					<p id="shipping">
+						<strong>Shipping</strong>: <span id="sshipping"></span>
+					</p>
+					<p id="sub-total">
+						<strong>Total</strong>: <span id="stotal"></span>
+					</p>
+			 	</div>
+			 
+				 <div id="user-details">
+				 	<h2>Your Data</h2>
+				 	<div id="user-details-content"></div>
+				 </div>
+			</div>
 
-</body>
-</html>	
+		</div>
+
+		<footer id="site-info">
+			Copyright &copy; Markito
+		</footer>
+
+	</body>
+
+</html>
